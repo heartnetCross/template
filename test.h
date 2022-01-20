@@ -1,17 +1,16 @@
 #ifndef TEST_H
 #define TEST_H
 
-#include "stdio.h"
+#include <iostream>
 
 class test
 {
 public:
-//    test();
     test(int value = 0);
     virtual ~test();
 
 public:
-    inline void valuePrint();
+    void valuePrint();
     void setValue(int value);
     int getValue();
 

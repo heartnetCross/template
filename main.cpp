@@ -28,9 +28,6 @@
 int main(int argc, char *argv[])
 {
     test ts(12);
-
-    test ts1;
-
     int res= 0;
 
     ts.setValue(res);

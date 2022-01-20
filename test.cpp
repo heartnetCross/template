@@ -1,11 +1,5 @@
 #include "test.h"
 
-//test::test()
-//{
-//    printf("test constructor complete\n");
-
-//}
-
 test::test(int value) : mTestValue(value)
 {
     printf("test constructor complete\n");
